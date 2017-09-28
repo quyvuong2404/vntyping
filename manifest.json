@@ -1,6 +1,6 @@
 {
 	"name": "Vietnamese Typing",
-	"description": "Chrome App - Type Vietnamese without 3rd application",
+	"description": "Type Vietnamese without 3rd application",
 	"version": "1.0.0",
 	"manifest_version": 2,
 	"app": {
