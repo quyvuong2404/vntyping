@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Vietnamese Typing</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body class="container">
+	<textarea class="form-control" name="textbody" id="textbody" placeholder="your text here..."></textarea>
+	<div class="controls form-group">
+		<div class="btn-group" data-toggle="buttons">
+      <label class="btn" id="id0">
+        <input type="radio" name="mode" id="option1" value="0" autocomplete="off">
+        OFF </label>
+      <label class="btn" id="id2">
+        <input type="radio" name="mode" id="option3" value="2" autocomplete="off">
+        TELEX </label>
+      <label class="btn" id="id3">
+        <input type="radio" name="mode" id="option4" value="3" autocomplete="off">
+        VIQR </label>
+			<label class="btn" id="id1">
+        <input type="radio" name="mode" id="option2" value="1" autocomplete="off">
+        VNI </label>
+    </div>
+    <div class="source">
+    	<button type="button" class="btn btn-primary btn-copy" data-clipboard-target="#textbody">Copy</button>
+    	<p>Source: <a target="blank" href="https://vntyping.com">https://vntyping.com</a></p>
+    </div>
+	</div>
+	<script src="assets/js/jquery-3.2.1.min.js"></script>
+	<script src="assets/js/bootstrap.min.js"></script>
+	<script src="assets/js/clipboard.min.js"></script>
+	<script src="assets/js/vntyping.js"></script>
+	<script src="assets/js/main.js"></script>
+</body>
+</html>

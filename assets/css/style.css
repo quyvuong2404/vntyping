@@ -1,0 +1,16 @@
+body {
+	height: 100vh;
+}
+textarea.form-control {
+	height: 91%;
+}
+.source {
+	display: inline-block;
+	float: right;
+}
+.source p {
+	display: inline-block;
+}
+.btn.active {
+	background-color: #2979FF;
+}

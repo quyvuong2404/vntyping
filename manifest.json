@@ -1,0 +1,16 @@
+{
+	"name": "Vietnamese Typing",
+	"description": "Chrome App - Type Vietnamese without 3rd application",
+	"version": "1.0.0",
+	"manifest_version": 2,
+	"app": {
+		"background": {
+	    "scripts": ["background.js"]
+	  }
+	},
+	"icons": {
+		"16": "assets/img/icon.png",
+		"128": "assets/img/icon.png"
+	},
+	"permissions": ["storage"]
+}
